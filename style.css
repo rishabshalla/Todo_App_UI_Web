@@ -158,3 +158,103 @@ body {
   background-color: #f52e27;
   padding: 5px 15px;
 }
+.ui-trip {
+  text-align: center;
+  padding-top: 30px;
+}
+.title-trip {
+  /* text-decoration: line-through; */
+  font-size: 60px;
+  font-weight: bolder;
+}
+.title-trip-space {
+  text-decoration: line-through;
+  font-weight: 100;
+  color: gray;
+}
+.back {
+  /* border: 1px solid black; */
+  display: inline-block;
+}
+.back-logo-circle {
+  border-radius: 50%;
+  background-color: rgb(243, 19, 19);
+  border: none;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+}
+.arrow {
+  position: relative;
+  top: 10px;
+  left: 11px;
+}
+.top-arrow {
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  width: 12px;
+  transform: rotate(-45deg);
+  position: relative;
+  top: 4px;
+}
+.straight-arrow {
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  width: 17px;
+  position: relative;
+  top: 6px;
+  left: 1px;
+}
+.bottom-arrow {
+  border-bottom: 2px solid white;
+  border-radius: 10px;
+  /* height: 20px; */
+  width: 12px;
+  transform: rotate(-135deg);
+  position: relative;
+  top: 8px;
+  left: 0px;
+}
+.back-text {
+  color: gray;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 400;
+  position: relative;
+  top: -10px;
+  left: 15px;
+}
+.container-card-trip {
+}
+.card-trip {
+  display: inline-block;
+  padding-left: 100px;
+  width: 350px;
+  height: 400px;
+  /* padding-right: 100px; */
+}
+.task-title-trip {
+  position: relative;
+  left: -65px;
+  font-weight: 400;
+}
+.task-body-trip {
+  position: relative;
+  left: -60px;
+  font-weight: 700;
+}
+.add-logo-trip {
+  position: relative;
+  left: 190px;
+  bottom: 70px;
+}
+.ui-new-trip {
+  /* margin: 5% 20%; */
+  height: 480px;
+  filter: blur(8px);
+}
+.new-trip {
+  position: absolute;
+  top: 270px;
+  left: 480px;
+}
